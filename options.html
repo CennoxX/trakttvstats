@@ -6,30 +6,20 @@
     <script src="lib/jquery-3.2.1.min.js"></script>
     <script src="lib/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="css/options.css">
-    <link rel="stylesheet" href="css/dark-theme.css" id="dark-theme">
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            var darkThemeLink = document.getElementById('dark-theme');
-            if (!prefersDark) {
-                darkThemeLink.parentNode.removeChild(darkThemeLink);
-            }
-        });
-    </script>
 </head>
 <body>
 
-    <div class="section-title">Charts :</div>
+    <div class="section-title">Charts:</div>
 
     <label class="row">
-        <span class="label">Ratings to hide from charts</span>
+        <span class="label">Hide ratings from charts</span>
         <input type="text" placeholder="ex: 1,2" data-option="ratingsfilter">
     </label>
 
-    <div class="section-title">Layout :</div>
+    <div class="section-title">Layout:</div>
 
     <label class="row">
-        <span class="label">Custom external links:</span>
+        <span class="label">Custom external links</span>
         <input type="text" placeholder="ex: allocine,criticker" data-option="layoutExternalLinks">
     </label>
     <label class="row">
@@ -49,7 +39,7 @@
         <input type="number" min="1" size="2" placeholder="10" data-option="layoutSynopsisMaxLines">
     </label>
 
-    <div class="section-title">Translation :</div>
+    <div class="section-title">Translation:</div>
 
     <label class="row">
         <span class="label">Language (ISO 639-1)</span>
@@ -87,7 +77,7 @@
         </label>
     </div>
 
-    <div class="section-title">Other :</div>
+    <div class="section-title">Other:</div>
 
     <label class="row">
         <span class="label">Debug</span>

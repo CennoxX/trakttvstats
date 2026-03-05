@@ -106,3 +106,65 @@ select {
     font: bold 12px/1.2 monospace;
     border: 1px solid #ddd;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color-scheme: dark;
+        background-color: #1d1d1d;
+        color: #e0e0e0;
+    }
+
+    .section-title {
+        border-left: .2em solid #444;
+        background-color: #333;
+    }
+
+    input,
+    select {
+        border: 1px solid #555;
+        background-color: #383838;
+        color: #e0e0e0;
+    }
+
+    .titlesZone {
+        border: 1px solid #555;
+        background: #333;
+    }
+
+    .titlesZone .title {
+        border: 1px solid #555;
+        background: #444;
+    }
+
+    .titlesZone .title:before {
+        color: #ccc;
+    }
+
+    a {
+        color: #4a90e2;
+    }
+
+    button {
+        background-color: #333;
+        color: #e0e0e0;
+        border: 1px solid #555;
+    }
+
+    button:hover {
+        background-color: #444;
+    }
+
+    .table-row {
+        border: 1px solid #555;
+        background-color: #222;
+    }
+
+    .table-row:nth-child(odd) {
+        background: #2b2b2b;
+    }
+
+    .table-head {
+        background: #444;
+        border: 1px solid #555;
+    }
+}
