@@ -47,7 +47,7 @@ $( () => {
             i18nSynopsis: 'Both',
             layoutExternalLinks: '',
             layoutSpecifyYearInExternalLinks: true,
-            layoutUseInurlInExternalLinks: true,
+            layoutUseInsiteInExternalLinks: true,
             layoutSynopsisMaxLines: 5,
             layoutMultilineTitles: false,
             i18nTitlesLines: [

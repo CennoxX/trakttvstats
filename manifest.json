@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Trakt improver",
-  "short_name" : "trakttvstats",
+  "short_name": "trakttvstats",
   "description": "Add various improvements to Trakt.tv",
-  "version": "0.5.5.3",
+  "version": "0.5.5.7",
   "permissions": [
     "storage",
     "tabs",
@@ -12,8 +12,8 @@
     "https://api.themoviedb.org/*"
   ],
   "background": {
-      "page": "background.html",
-      "persistent": false
+    "page": "background.html",
+    "persistent": false
   },
   "options_ui": {
     "page": "options.html",
